@@ -1,25 +1,19 @@
-<?php 
-session_start();
-include "includes/admin_header.php"
-?>
 
-    
-<div id="wrapper">
-
-  
-  <div class="container">
-       <!-- <center><h1> <span class="label label-default">Summernote data formatter</span></h1></center>-->
-        <form name="summernote" method="post" action="setdata.php">
-            News Headline:<br/><input type="text" class="form-control" name="heading" required /><br/>
-            News Body:<br/><textarea name="newsbody" id="summernote" class="summernote"></textarea><br/>
-            <input type="submit" class="btn btn-success" value="Save News"/>
-        </form>
-    </div>
+ <form method="POST" enctype="multipart/form-data" action="upload.php">
+  <input type="file" name="file"> <input type="submit" value="Upload"> 
+  </form> 
 
 
-  <script>
-    $(document).ready(function() {
-        $('#summernote').summernote();
-    });
-  </script>
-<?php include "includes/admin_footer.php" ?>
+  <?php 
+
+   $files = scandir("uploads"); 
+   for ($a = 2; $a < count($files); $a++) { 
+
+    ?>
+
+
+    <p> <a donwloads="<?php echo $files[$a] ?>" href="uploads/<?php echo $files[$a] ?>"><?php echo $files[$a] ?></a> </p>
+
+
+
+         <?php }﻿ ?>

@@ -14,10 +14,13 @@ include "includes/admin_header.php"
 
 	<div class="container">
 	   <!-- <center><h1> <span class="label label-default">Summernote data formatter</span></h1></center>-->
-	    <form name="summernote" method="post" action="setdata.php">
-			News Headline:<br/><input type="text" class="form-control" name="heading"/><br/>
-	        News Body:<br/><textarea name="newsbody" id="summernote" class="summernote"></textarea><br/>
-	        <input type="submit" class="btn btn-success" value="Save News"/>
+	    <form name="summernote" method="post" enctype="multipart/form-data" action="includes/upload_notice.php">
+			News Headline:<br/><input type="text" class="form-control" name="title"/><br/>
+	        News Body:<br/><textarea name="description" id="summernote" class="summernote"></textarea><br/>
+
+  			<input type="file" name="file"> <br>
+
+	        <input type="submit" class="btn btn-success" value="Save"/>
 	    </form>
 	</div>
 
