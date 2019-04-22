@@ -15,6 +15,8 @@ $count =  mysqli_num_rows($result);
 
 $output = '';
 
+
+
 if($count > 0){
                         
     while($row = mysqli_fetch_assoc($result)){
@@ -23,6 +25,9 @@ if($count > 0){
         $description = $row['description'];
         $image = $row['image'];
         $postTime = $row['postTime'];
+
+
+		
 
 
 		$short= substr($description,0,100 ); 
@@ -64,9 +69,12 @@ if($count > 0){
 			               		<div class="panel-body">
 
 					                   <p>
-					                   		<img class="float-right" src="images/'.$image.'" alt="" style="float: right;height: 200px;">
+					                   		<span style="float:right"> Download your file from here <a  href="uploads/'.$image.'" donwload>'.$image.'</a></span>
 					                   		'.$description.'
 					                   </p>
+
+
+					                   <p>  </p>
 
 
 					            </div>
@@ -84,3 +92,4 @@ if($count > 0){
 echo $output;
 
 ?>
+

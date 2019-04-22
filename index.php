@@ -1,5 +1,3 @@
-
-
 <!--
  * User: Md. Zahid Hossain
  * Date: 28-03-2019
@@ -17,7 +15,20 @@
 <!-- navbar -->
 <?php include "includes/navbar.php" ?>
 
-	
+<?php 
+$statement = "select * from banner where id = 1 ";
+    $result = mysqli_query($conn,$statement);
+    if(mysqli_num_rows($result) == 1 ){
+        
+        while($row = mysqli_fetch_assoc($result)){
+            
+            $banner1 = $row['banner1'];
+            $banner2 = $row['banner2'];
+            $banner3 = $row['banner3'];
+            
+        }
+    }
+?>
 
 
 <!-- banner -->
@@ -27,52 +38,21 @@
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
 			<li data-target="#myCarousel" data-slide-to="2" class=""></li>
-			<li data-target="#myCarousel" data-slide-to="3" class=""></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<div class="container">
-					<div class="carousel-caption">
-						<h6>Welcome To Best Study</h6>
-						<h3>Leading
-							<span>University</span>
-						</h3>
-						<p>Create an all-encompassing website for your school with ease.</p>
-					</div>
-				</div>
+				<img src="images/<?php echo $banner1 ?>">
+				
 			</div>
-			<div class="item item2">
-				<div class="container">
-					<div class="carousel-caption">
-						<h6>Welcome To Best Study</h6>
-						<h3>Most Popular
-							<span>Education</span>
-						</h3>
-						<p>Create an all-encompassing website for your school with ease.</p>
-					</div>
-				</div>
+			<div class="item">
+				<img src="images/<?php echo $banner2 ?>">
+				
 			</div>
-			<div class="item item3">
-				<div class="container">
-					<div class="carousel-caption">
-						<h6>Welcome To Best Study</h6>
-						<h3>We Can
-							<span>Teach</span> You</h3>
-						<p>Create an all-encompassing website for your school with ease.</p>
-					</div>
-				</div>
+			<div class="item">
+				<img src="images/<?php echo $banner3 ?>">
+				
 			</div>
-			<div class="item item4">
-				<div class="container">
-					<div class="carousel-caption">
-						<h6>Welcome To Best Study</h6>
-						<h3>Most Popular
-							<span>Education</span>
-						</h3>
-						<p>Create an all-encompassing website for your school with ease.</p>
-					</div>
-				</div>
-			</div>
+			
 		</div>
 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 			<span class="fa fa-chevron-left" aria-hidden="true"></span>

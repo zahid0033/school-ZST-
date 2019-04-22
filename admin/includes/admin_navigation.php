@@ -36,6 +36,9 @@
                             <li>
                                 <a href="view_notices.php">View All Notices</a>
                             </li>
+                            <li>
+                                <a href="upload_banner.php">Upload Banner</a>
+                            </li>
                             
                            
                         </ul>

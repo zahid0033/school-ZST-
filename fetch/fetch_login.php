@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
 
             	$_SESSION['username']= $username;
                 
-            	header("location:../admin//index.php");
+            	header("location:../admin/index.php");
                
     		}
             else

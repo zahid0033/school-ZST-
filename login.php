@@ -4,7 +4,12 @@
  * Time: 2.00 AM
  -->
  
-<?php session_start(); ?>
+<?php
+session_start();
+if ((isset($_SESSION['username']))){
+    header("location:admin/index.php");
+}//else //{
+?>
 
 <!-- header -->
 <?php include "includes/header.php" ?>
@@ -57,11 +62,7 @@
 					</div>
 
 					<input type="submit" value="Login" name="submit">
-					<div class="register-forming">
-						<p>To Register New Account --
-							<a href="register.html">Click Here</a>
-						</p>
-					</div>
+					
 				</form>
 			</div>
 

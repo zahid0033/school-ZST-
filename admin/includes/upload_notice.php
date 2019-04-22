@@ -13,7 +13,7 @@ $file = $_FILES["file"];
 move_uploaded_file($file["tmp_name"], "../uploads/" . $file["name"]);
 
 $fileName =  $file["name"];
-
+	
 
 $statement= "insert into notice(adminId,title,description,image,postTime) values ('1','$title','$description','$fileName',now())";
 

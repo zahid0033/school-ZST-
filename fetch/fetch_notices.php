@@ -3,7 +3,7 @@
 require "../db/config.php"; 
 
 
-$query = "select * from notice order by id desc ";
+$query = "select * from notice order by id desc limit 4 ";
 
 $result = mysqli_query($conn,$query);
                

@@ -343,13 +343,61 @@ label {
 
 /*-- banner --*/
 
-.carousel .item {
-    background: url(../images/1.jpg) no-repeat center;
+.carousel .item{
+    /*background: url(../images/1.jpg) no-repeat center;*/
+
+    /*max-height: 676px;*/
+    max-height: 500px;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
+}
+.carousel .item img{
+    max-height: 500px;
+    min-height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+    .carousel .item{
+    /*background: url(../images/1.jpg) no-repeat center;*/
+
+    /*max-height: 676px;*/
+    max-height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    }
+    .carousel .item img{
+    max-height: 200px;
+    min-height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    }
+
 }
 
 .carousel .item.item2 {
@@ -361,23 +409,6 @@ label {
     -ms-background-size: cover;
 }
 
-.carousel .item.item3 {
-    background: url(../images/3.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-}
-
-.carousel .item.item4 {
-    background: url(../images/4.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-}
 
 .carousel-caption h3 {
     font-size: 55px;
