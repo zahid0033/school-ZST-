@@ -9,6 +9,8 @@
 	<!-- //stats numscroller-js-file -->
 	<script src="js/jquery.flexisel.js"></script>
 	<!-- //Flexslider-js for-testimonials -->
+	<!-- simple-lightbox -->
+	<script type="text/javascript" src="js/simple-lightbox.js"></script>
 	<!-- smooth scrolling -->
 	<script src="js/SmoothScroll.min.js"></script>
 	<script src="js/move-top.js"></script>

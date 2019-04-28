@@ -54,7 +54,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="Gallery.php" class="effect-3">Gallery</a>
+									<a href="gallery1.php" class="effect-3">Gallery</a>
 								</li>
 								<li>
 									<a href="contact.php" class="effect-3">Contact Us</a>

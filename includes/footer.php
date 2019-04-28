@@ -5,22 +5,27 @@
 				<div class="mkls_footer_grid">
 					<div class="col-xs-4 mkls_footer_grid_left">
 						<h4>Location:</h4>
-						<p>educa mfdflimbg 1235, Ipswich,
-							<br> Foxhall Road, USA</p>
+						<p>ZST School
+								Dengu Sardar Road
+								South Alekanda,
+							<br>  Barishal
+								Bangladesh.</p>
 					</div>
 					<div class="col-xs-4 mkls_footer_grid_left">
-						<h4>Mail Us:</h4>
+						<h4>Contact Us:</h4>
+						<p>Ms Shabnaz Rahman Ava
+						   School Administrator</p>
 						<p>
-							<span>Phone : </span>001 234 5678</p>
+							<span>Phone : </span>+8801777848348</p>
 						<p>
 							<span>Email : </span>
-							<a href="mailto:info@example.com">mail@example.com</a>
+							<a href="mailto:info.zstschool@gmail.com">info.zstschool@gmail.com</a>
 						</p>
 					</div>
 					<div class="col-xs-4 mkls_footer_grid_left">
 						<h4>Opening Hours:</h4>
-						<p>Working days : 8am-10pm</p>
-						<p>Sunday
+						<p>Working days : 8am-5pm</p>
+						<p>Friday
 							<span>(closed)</span>
 						</p>
 					</div>

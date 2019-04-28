@@ -7,7 +7,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Admin</a>
+                <a class="navbar-brand" href="#">
+                    <?php
+                    session_start(); 
+                    echo $_SESSION['username'] ?></a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -38,6 +41,9 @@
                             </li>
                             <li>
                                 <a href="upload_banner.php">Upload Banner</a>
+                            </li>
+                            <li>
+                                <a href="view_gallery_image.php">View All Images</a>
                             </li>
                             
                            

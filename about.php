@@ -1,5 +1,3 @@
-
-
 <!--
  * User: Md. Zahid Hossain
  * Date: 28-03-2019
@@ -144,7 +142,7 @@
 			<div class="team-row-agileinfo">
 				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
 					<div class="thumbnail team-agileits">
-						<img src="images/t1.jpg" class="img-responsive" alt="" />
+						<img src="images/ceo1.jpg" class="img-responsive" alt="" />
 						<div class="effectd-caption">
 							<h4>Vaura Tegsner</h4>
 							<p>Principal</p>
@@ -227,182 +225,7 @@
 		</div>
 	</div>
 	<!-- //about-team -->
-	<!-- middle section -->
-	<div class="middle-sec-agile">
-		<div class="container">
-			<h4>Our
-				<span>Best Study</span> Institute</h4>
-			<ul>
-				<li>
-					<div class="midle-left-w3l">
-						<span class="fa fa-check" aria-hidden="true"></span>
-					</div>
-					<div class="middle-right">
-						<h5>Select A Course You Like And Explore It!</h5>
-						<p>Integer eu facilisis nunc, a iaculis felis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</li>
-				<li>
-					<div class="midle-left-w3l">
-						<span class="fa fa-check" aria-hidden="true"></span>
-					</div>
-					<div class="middle-right">
-						<h5>Join A Seminar To Know More About It!</h5>
-						<p>Integer eu facilisis nunc, a iaculis felis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</li>
-				<li>
-					<div class="midle-left-w3l">
-						<span class="fa fa-check" aria-hidden="true"></span>
-					</div>
-					<div class="middle-right">
-						<h5>Get Enrolled And Start Better Future With Us!</h5>
-						<p>Integer eu facilisis nunc, a iaculis felis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</li>
-			</ul>
-			<a class="button-style" href="join.html">Join Now</a>
-		</div>
-		<div class="pencil-img">
-			<img src="images/bg5.png" alt="" />
-		</div>
-	</div>
-	<!-- //middle section -->
 
-
-	<!-- news -->
-	<div class="news" id="news">
-		<div class="container">
-			<div class="title-div">
-				<h3 class="tittle">
-					<span>O</span>ur
-					<span> E</span>vents
-				</h3>
-				<div class="tittle-style">
-
-				</div>
-			</div>
-			<div class="yaallahaa-news-grids-agile">
-				<div class="yaallahaa-news-grid">
-					<div class="col-md-6 yaallahaa-news-left">
-						<div class="col-xs-6 news-left-img">
-							<div class="news-left-text color-event1">
-								<h5>20 Dec</h5>
-							</div>
-						</div>
-						<div class="col-xs-6 news-grid-info-bottom-w3ls">
-							<div class="news-left-top-text text-color1">
-								<a href="#" data-toggle="modal" data-target="#myModal">Integer viverra eleifend neque</a>
-							</div>
-							<div class="date-grid">
-								<div class="admin">
-									<a href="#">
-										<span class="fa fa-clock-o" aria-hidden="true"></span> 7:00 pm - 9:00 pm</a>
-								</div>
-								<div class="time">
-									<p>
-										<span class="fa fa-map-marker" aria-hidden="true"></span> Newyork City, 2589</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="news-grid-info-bottom-w3ls-text">
-								<p>Aliquam erat volutpat. Duis vulputate tempus laoreet.</p>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 yaallahaa-news-left">
-						<div class="col-xs-6 news-left-img news-left-img1">
-							<div class="news-left-text color-event2">
-								<h5>27 Dec</h5>
-							</div>
-						</div>
-						<div class="col-xs-6 news-grid-info-bottom-w3ls">
-							<div class="news-left-top-text text-color2">
-								<a href="#" data-toggle="modal" data-target="#myModal">Integer viverra eleifend neque</a>
-							</div>
-							<div class="date-grid">
-								<div class="admin">
-									<a href="#">
-										<span class="fa fa-clock-o" aria-hidden="true"></span> 6:00 am - 8:00 am</a>
-								</div>
-								<div class="time">
-									<p>
-										<span class="fa fa-map-marker" aria-hidden="true"></span> Newyork City, 1452</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="news-grid-info-bottom-w3ls-text">
-								<p>Aliquam erat volutpat. Duis vulputate tempus laoreet.</p>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="yaallahaa-news-grid">
-					<div class="col-md-6 yaallahaa-news-left">
-						<div class="col-xs-6 news-left-img news-left-img2">
-							<div class="news-left-text color-event3">
-								<h5>28 Dec</h5>
-							</div>
-						</div>
-						<div class="col-xs-6 news-grid-info-bottom-w3ls">
-							<div class="news-left-top-text text-color3">
-								<a href="#" data-toggle="modal" data-target="#myModal">Integer viverra eleifend neque</a>
-							</div>
-							<div class="date-grid">
-								<div class="admin">
-									<a href="#">
-										<span class="fa fa-clock-o" aria-hidden="true"></span> 10:00 am - 1:00 pm</a>
-								</div>
-								<div class="time">
-									<p>
-										<span class="fa fa-map-marker" aria-hidden="true"></span> Newyork City, 7458</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="news-grid-info-bottom-w3ls-text">
-								<p>Aliquam erat volutpat. Duis vulputate tempus laoreet.</p>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 yaallahaa-news-left">
-						<div class="col-xs-6 news-left-img news-left-img3">
-							<div class="news-left-text color-event4">
-								<h5>30 Dec</h5>
-							</div>
-						</div>
-						<div class="col-xs-6 news-grid-info-bottom-w3ls">
-							<div class="news-left-top-text text-color4">
-								<a href="#" data-toggle="modal" data-target="#myModal">Integer viverra eleifend neque</a>
-							</div>
-							<div class="date-grid">
-								<div class="admin">
-									<a href="#">
-										<span class="fa fa-clock-o" aria-hidden="true"></span> 7:00 pm - 9:00 pm</a>
-								</div>
-								<div class="time">
-									<p>
-										<span class="fa fa-map-marker" aria-hidden="true"></span> Newyork City, 786.</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="news-grid-info-bottom-w3ls-text">
-								<p>Aliquam erat volutpat. Duis vulputate tempus laoreet.</p>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 
 	<!-- modal -->
@@ -439,40 +262,4 @@
 <?php include "includes/footer.php" ?>
 
 
-	<!-- js files -->
-	<!-- js -->
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<!-- bootstrap -->
-	<script src="js/bootstrap.js"></script>
-	<!-- stats numscroller-js-file -->
-	<script src="js/numscroller-1.0.js"></script>
-	<!-- //stats numscroller-js-file -->
-	<!-- smooth scrolling -->
-	<script src="js/SmoothScroll.min.js"></script>
-	<script src="js/move-top.js"></script>
-	<script src="js/easing.js"></script>
-	<!-- here stars scrolling icon -->
-	<script>
-		$(document).ready(function () {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-
-			$().UItoTop({
-				easingType: 'easeOutQuart'
-			});
-
-		});
-	</script>
-	<!-- //here ends scrolling icon -->
-	<!-- smooth scrolling -->
-	<!-- //js-files -->
-
-</body>
-
-</html>
+<?php include "includes/end.php" ?>

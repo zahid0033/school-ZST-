@@ -6,6 +6,6 @@
 if(!$result){
     die("query failed".mysqli_error($conn));
 }
-    header("Location:../view_job_posts.php");
+    header("Location:../view_notices.php");
 
 ?>
