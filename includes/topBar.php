@@ -18,18 +18,9 @@
 					<a class="facebook" href="#">
 						<span class="fa fa-facebook"></span>
 					</a>
-					<a class="twitter" href="#">
-						<span class="fa fa-twitter"></span>
-					</a>
-					<a class="pinterest" href="#">
-						<span class="fa fa-pinterest-p"></span>
-					</a>
-					<a class="linkedin" href="#">
-						<span class="fa fa-linkedin"></span>
-					</a>
 				</div>
 				<div class="header-top-righ">
-
+					
 					<?php
 					session_start();
 						if ((isset($_SESSION['username']))){

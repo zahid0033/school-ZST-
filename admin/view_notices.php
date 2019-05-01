@@ -1,4 +1,9 @@
-
+<?php
+session_start();
+if (!(isset($_SESSION['username']))){
+    header("location:../login.php");
+}//else //{
+?>
 <?php 
 include "includes/admin_header.php"
 ?>
@@ -11,7 +16,6 @@ include "includes/admin_header.php"
    
    <h2 style="text-align:center">View Notices</h2>
     <h3><a href='notice_add.php' style='float:left;' class='btn btn-info'>Add Notice</a></h3>
-    <h3><a href='convertxml/jobPost_xml.php' style='float:right;' class='btn btn-info'>Export as Xml</a></h3><br/><br/>
     
     
    

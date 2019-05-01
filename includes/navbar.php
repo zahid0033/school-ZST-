@@ -27,39 +27,22 @@
 					<!--/.navbar-header-->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<nav class="link-effect-2" id="link-effect-2">
-							<ul class="nav navbar-nav">
+							<ul class="nav navbar-nav navbar-right">
 								<li>
-									<a href="index.php" class="effect-3">হোম</a>
+									<a href="index.php" class="effect-3">Home</a>
 								</li>
 								<li class="">
 									<a href="about.php" class="effect-3">About Us</a>
 								</li>
+								
 								<li>
-									<a href="courses.php" class="effect-3">Courses</a>
-								</li>
-								<li>
-									<a href="join.html" class="effect-3">Join Us</a>
-								</li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages
-										<span class="caret"></span>
-									</a>
-									<ul class="dropdown-menu" role="menu">
-										<li>
-											<a href="icons.html">Web Icons</a>
-										</li>
-										<li>
-											<a href="codes.html">Short Codes</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="gallery1.php" class="effect-3">Gallery</a>
+									<a href="gallery.php" class="effect-3">Gallery</a>
 								</li>
 								<li>
 									<a href="contact.php" class="effect-3">Contact Us</a>
 								</li>
 							</ul>
+							
 						</nav>
 					</div>
 					<!--/.navbar-collapse-->

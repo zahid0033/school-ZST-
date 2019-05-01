@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!(isset($_SESSION['username']))){
+    header("location:../login.php");
+}//else //{
+?>
 <?php 
 include "includes/admin_header.php"
 ?>
@@ -10,7 +16,7 @@ include "includes/admin_header.php"
    
     <h2 style="text-align:center;margin-bottom: 40px;">Upload Image</h2>
    
-    <p class="text-center" style="margin-bottom: 30px"><b>PS:</b> You can upload picture one by one 3  at a time. Image size should be 640 X 430 px for better quality</p>
+    
 
 	<div class="container">
 	   <!-- <center><h1> <span class="label label-default">Summernote data formatter</span></h1></center>-->
@@ -22,12 +28,16 @@ include "includes/admin_header.php"
 	    	<div class="col-sm-12" style="margin-bottom: 25px;padding: 20px 0;background:linear-gradient(to right, #bfbcbc , #16d6ea)">
 
 	    		<div class="col-sm-6">
-	    		<b> Image </b>
+	    			<b> Image </b>
 		    	</div>
+		    	
 		    	<div class="col-sm-6">
 		    		<input type="file" name="image" >
 		    	</div>
 	    		
+	    	</div>
+	    	<div class="col-sm-12">
+	    		<input type="text" name="description">
 	    	</div>
 	    	
 

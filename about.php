@@ -47,21 +47,36 @@
 				</div>
 			</div>
 			<div class="about-sub">
-				<div class="col-md-6 about_bottom_left">
+				<div class="col-md-10 about_bottom_left">
 					<h4>Welcome to
-						<span>Best Study</span>
+						<span>ZST</span>
 					</h4>
-					<p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit, Nulla viverra pharetra sem eget.</p>
-					<p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
-						pulvinar neque pharetra ac.Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla
-						viverra pharetra sem.</p>
-					<a class="button-style" href="join.html">Join Now</a>
+					<p>Education is the backbone of a nation so from a commitment to our nation
+						Zohora Samad Trust established ZST School in 2012 at their own South
+						Alekanda, Barishal, Bangladesh premises. At ZST School, our primary
+						target is to educate tomorrow’s leaders, by training them with the life skills
+						to master the challenges posed by an ever-changing world. In order to
+						produce young people with confidence to shape the future, our teachers
+						view each member of our student as a unique individual.</p>
+
+					<p>Our school is small so we are able to discover the talents of each one of
+						our students. At the same time, our activities are big enough to assist
+						students to enrich their academic, cultural and sporting skills. The
+						infrastructure of ZST School family-like environment facilitates the essential
+						one-on-one tuition and hands-on coaching that allow everyone to thrive.
+						We pride ourselves on being able to provide everyone with opportunities to
+						participate both within the classroom and beyond its confines; said
+						participation, in turn, encourages meaningful personal relationships,
+						teamwork and commitment to causes beyond the pursuit and attainment of
+						individual prestige.</p>
 				</div>
 				<!-- Stats-->
-				<div class="col-md-6 about2-info">
+				<div class="col-md-2 about2-info">
 					<img src="images/graduate.png" alt="" />
 				</div>
 				<!-- //Stats -->
+
+
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -87,37 +102,31 @@
 								<div class="work">
 									<div class="work-info">
 										<div class="col-xs-6 work-grid work-left">
-											<h4>2000-2017</h4>
+											<h4>1</h4>
 										</div>
 										<div class="col-xs-6 work-grid work-right">
-											<h5>Ranked Top 1st</h5>
-											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-												eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+											<h5>Outstanding Result</h5>
+											<p>Our students are highly competent in their academic level are the
+												guardians are satisfied with the care and attention which our students are
+												receiving from our school. In any High School admission test our students
+												pass rate is much higher than any other school in Barishal city. </p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
 									<div class="work-info">
 										<div class="col-xs-6 work-grid work-right work-right2">
-											<h4>2011 - 2012</h4>
+											<h4>2</h4>
 										</div>
 										<div class="col-xs-6 work-grid work-left work-left2">
-											<h5>Queen's Anniversary Prize</h5>
-											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-												eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+											<h5>Obtain Scholarship</h5>
+											<p>We seek talents from our students and assist them to participate in any
+												competitive test in national level. Last year 21 of our students obtained
+												Scholarship under Scholarship Exam arranged by Bangladesh
+												Kindergarten Association.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
-									<div class="work-info">
-										<div class="col-xs-6 work-grid work-left">
-											<h4>2004 - 2017</h4>
-										</div>
-										<div class="col-xs-6 work-grid work-right">
-											<h5 class="comp">Excellent University Guide</h5>
-											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-												eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
+
 								</div>
 							</div>
 						</div>

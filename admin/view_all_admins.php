@@ -1,4 +1,9 @@
-
+<?php
+session_start();
+if (!(isset($_SESSION['username']))){
+    header("location:../login.php");
+}//else //{
+?>
 <?php 
 include "includes/admin_header.php"
 ?>
@@ -10,8 +15,7 @@ include "includes/admin_header.php"
 
    
    <h2 style="text-align:center">View All Admins</h2>
-    <h3><a href='../reg/login_intern.php' style='float:left;' class='btn btn-info'>Add Admin</a></h3>
-    <h3><a href='convertxml/employee_xml.php' style='float:right;' class='btn btn-info'>Export as Xml</a></h3><br/><br/>
+    <h3><a href='admin_add.php' style='float:left;' class='btn btn-info'>Add Admin</a></h3>
     
     
     
@@ -37,7 +41,7 @@ include "includes/admin_header.php"
 					echo "<td>".$row['id']."</td>";
 					echo "<td>".$row['username']."</td>";
 
-					echo "<td><a href=\"includes/delete_employee.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a> | <a href=\"view_employee.php?id=$row[id]\">View</a></td>";
+					echo "<td><a href=\"includes/delete_admin.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a> </td>";
 					echo "</tr>";
                 }
 			

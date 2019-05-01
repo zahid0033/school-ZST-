@@ -1,4 +1,9 @@
-
+<?php
+session_start();
+if (!(isset($_SESSION['username']))){
+    header("location:../login.php");
+}//else //{
+?>
 <?php 
 include "includes/admin_header.php"
 ?>
@@ -21,6 +26,7 @@ include "includes/admin_header.php"
 		<tr>
         <th>ID</th>
         <th>Image name</th>
+        <th>Description</th>
         <th>Action</th>
 		</tr>
         <?php
@@ -41,7 +47,8 @@ include "includes/admin_header.php"
 
           					echo "<td>".$row['id']."</td>";
           					echo "<td>".$row['images']."  <img src='../images/".$row['images']."' alt='' class='short' /> </td>";
-          					echo "<td><a href=\"includes/delete_notice.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a> </td>";
+                            echo "<td>".$row['description']."</td>";
+          					echo "<td><a href=\"includes/delete_gallery_image.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a> </td>";
 
           					echo "</tr>";
                   

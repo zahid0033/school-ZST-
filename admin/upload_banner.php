@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!(isset($_SESSION['username']))){
+    header("location:../login.php");
+}//else //{
+?>
 <?php 
 include "includes/admin_header.php"
 ?>

@@ -10,7 +10,7 @@ $password = $_POST['password'];
 
 if(isset($_POST['submit'])){
     
-    $statement="select username, password from admin where username='$username' and password='$password'";
+    $statement="select username, password from admin where username='$username' and password=md5('$password')";
 
     $result = mysqli_query($conn, $statement);
             if (mysqli_num_rows($result) == 1)

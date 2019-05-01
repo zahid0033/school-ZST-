@@ -8,9 +8,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <?php
-                    session_start(); 
-                    echo $_SESSION['username'] ?></a>
+                    <?php echo $_SESSION['username'] ?>
+                </a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -50,11 +49,6 @@
                         </ul>
                     </li>
                     
-                    <li>
-                        <a href="view_all_company.php"><i class="fa fa-fw fa-wrench"></i> Company </a>
-                    </li>
-                    
-              <!--      bootstrap-grid.html-->
                     
                     
                     
