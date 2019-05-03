@@ -36,6 +36,10 @@
 
 
     <link href="css/summernote.css" rel="stylesheet">
+<!-- 
+    <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+    <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script> -->
+                        
 <!--     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
    <script src="js/jquery.js"></script> -->
 <!--

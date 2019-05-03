@@ -37,7 +37,8 @@ include "includes/admin_header.php"
 	    		
 	    	</div>
 	    	<div class="col-sm-12">
-	    		<input type="text" name="description">
+	    		<label>Description</label>
+	    		<input type="text" name="description" required>
 	    	</div>
 	    	
 

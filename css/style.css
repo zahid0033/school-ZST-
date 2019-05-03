@@ -152,7 +152,7 @@ label {
 .navbar-nav {
     float: right;
     margin: 0;
-    width: 60%;
+    width: 70%;
 }
 
 .navbar {
@@ -639,11 +639,10 @@ h3.tittle span {
 
 .services-grids-w3l span {
     font-size: 40px;
-    color: #37BF91;
+    color: #F7FBFA;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
     transition: .5s all;
-    background: #fff;
     padding: 12px 24px;
 }
 
@@ -665,7 +664,7 @@ h3.tittle span {
 }
 
 .services-grids-w3l:hover span {
-    color: #000;
+    color: #ffff;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     -o-transform: scale(0.8);

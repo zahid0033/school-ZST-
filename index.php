@@ -81,20 +81,20 @@ $statement = "select * from banner where id = 1 ";
 			<div class="welcome-sub-wthree">
 				<div class="col-md-6 banner_bottom_left">
 					<h4>About
-						<span>Best Study</span>
+						<span>ZST</span>
 					</h4>
-					<p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit, Nulla viverra pharetra sem eget.</p>
-					<p>একুশ শতকের তীব্র প্রতিযোগিতামূলক বিশ্বের ক্রমবর্ধমান চ্যালেঞ্জ মোকাবেলা করে বাংলাদেশ গত দুই দশক ধরে এগিয়ে যাচ্ছে ধারাবহিক উন্নয়নের পথে। আমরা ইতোমধ্যে স্বল্পোন্নত দেশ থেকে উন্নয়নশীল দেশের কাতারে নাম লিখিয়েছি। ‘রূপকল্প-২০২১’ এর মাধ্যমে মধ্য আয়ের দেশ হওয়ার সাফল্য যখন দ্বার প্রান্তে তখন স্বপ্নের সীমানা বিস্তৃত ২০৪১ সালে উন্নত দেশ হওয়ার প্রত্যাশায়।</p>
+					<p>Education is the backbone of a nation so from a commitment to our nation Zohora Samad Trust established ZST School in 2012 at their own South Alekanda, Barishal, Bangladesh premises. At ZST School, our primary target is to educate tomorrow’s leaders, by training them with the life skills to master the challenges posed by an ever-changing world. In order to produce young people with confidence to shape the future, our teachers view each member of our student as a unique individual</p>
+					<p></p>
 				</div>
 				<!-- Stats-->
 				<div class="col-md-6 stats-info-agile">
 					<div class="col-xs-6 stats-grid stat-border">
-						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='768' data-delay='.5' data-increment="1">768</div>
+						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='768' data-delay='.5' data-increment="1">50</div>
 						<p>Faculties</p>
 					</div>
 					<div class="col-xs-6 stats-grid">
-						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='678' data-delay='.5' data-increment="1">678</div>
-						<p>Approved Courses</p>
+						<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='10' data-delay='.5' data-increment="1">10</div>
+						<p>Classes</p>
 					</div>
 					<div class="clearfix"></div>
 					<div class="child-stat">
@@ -103,7 +103,7 @@ $statement = "select * from banner where id = 1 ";
 							<p>Certified Teachers</p>
 						</div>
 						<div class="col-xs-6 stats-grid">
-							<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='485' data-delay='.5' data-increment="1">485</div>
+							<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='500' data-delay='.5' data-increment="1">500</div>
 							<p>Happy Students</p>
 						</div>
 						<div class="clearfix"></div>
@@ -134,21 +134,18 @@ $statement = "select * from banner where id = 1 ";
 					<div class="servi-shadow">
 						<span class="fa fa-bullhorn icon" aria-hidden="true"></span>
 						<h4>Popular Courses</h4>
-						<p>Phasellus at placerat ante nulla adipiscing elit</p>
 					</div>
 				</div>
 				<div class="col-xs-4 services-grids-w3l">
 					<div class="servi-shadow">
 						<span class="fa fa-certificate icon" aria-hidden="true"></span>
 						<h4>Certification</h4>
-						<p>Phasellus at placerat ante nulla adipiscing elit</p>
 					</div>
 				</div>
 				<div class="col-xs-4 services-grids-w3l">
 					<div class="servi-shadow">
 						<span class="fa fa-book icon" aria-hidden="true"></span>
 						<h4>Book Library</h4>
-						<p>Phasellus at placerat ante nulla adipiscing elit</p>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -158,21 +155,18 @@ $statement = "select * from banner where id = 1 ";
 					<div class="servi-shadow">
 						<span class="fa fa-users icon" aria-hidden="true"></span>
 						<h4>Best Teachers</h4>
-						<p>Phasellus at placerat ante nulla adipiscing elit</p>
 					</div>
 				</div>
 				<div class="col-xs-4 services-grids-w3l">
 					<div class="servi-shadow">
 						<span class="fa fa-bus icon" aria-hidden="true"></span>
 						<h4>Transport Facility</h4>
-						<p>Phasellus at placerat ante nulla adipiscing elit</p>
 					</div>
 				</div>
 				<div class="col-xs-4 services-grids-w3l">
 					<div class="servi-shadow">
 						<span class="fa fa-laptop icon" aria-hidden="true"></span>
 						<h4>Excellent Lab</h4>
-						<p>Phasellus at placerat ante nulla adipiscing elit</p>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -216,116 +210,13 @@ $statement = "select * from banner where id = 1 ";
 	</div>
 
 
-	<!-- modal -->
-	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-					<h4 class="modal-title">Best
-						<span>Study</span>
-					</h4>
-				</div>
-				<div class="modal-body">
-					<div class="model-img-info">
-						<img src="images/e1.jpg" alt="" />
-						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque
-							ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis
-							porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper. Cras tempor massa
-							luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modal -->
+
 
 
 	<!-- //news -->
 
 
 
-	<!-- testimonials -->
-	<div class="testimonials">
-		<div class="container">
-			<div class="title-div">
-				<h3 class="tittle">
-					<span>O</span>ur
-					<span>C</span>lient's
-					<span>S</span>ay
-				</h3>
-				<div class="tittle-style">
-
-				</div>
-			</div>
-			<ul id="flexiselDemo1">
-				<li>
-					<div class="three_testimonials_grid_main">
-						<div class="col-xs-3 three_testimonials_grid_pos">
-							<div class="grid-test-allah-agile">
-								<img src="images/te1.jpg" alt=" " class="img-responsive" />
-							</div>
-						</div>
-						<div class="col-xs-9 three_testimonials_grid">
-							<div class="three_testimonials_grid1">
-								<h5>Michael Paul</h5>
-								<p>Client 1</p>
-							</div>
-							<p>
-								Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa, eu aliquet massa. Suspendisse lacinia rutrum tincidunt.
-								Integer id erat porta, convallis.
-							</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</li>
-				<li>
-					<div class="three_testimonials_grid_main">
-						<div class="col-xs-3 three_testimonials_grid_pos">
-							<div class="grid-test-allah-agile">
-								<img src="images/te2.jpg" alt=" " class="img-responsive" />
-							</div>
-						</div>
-						<div class="col-xs-9 three_testimonials_grid">
-							<div class="three_testimonials_grid1">
-								<h5>Faul John</h5>
-								<p>Client 2</p>
-							</div>
-							<p>
-								Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa, eu aliquet massa. Suspendisse lacinia rutrum tincidunt.
-								Integer id erat porta, convallis.
-							</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</li>
-				<li>
-					<div class="three_testimonials_grid_main">
-						<div class="col-xs-3 three_testimonials_grid_pos">
-							<div class="grid-test-allah-agile">
-								<img src="images/te3.jpg" alt=" " class="img-responsive" />
-							</div>
-						</div>
-						<div class="col-xs-9 three_testimonials_grid">
-							<div class="three_testimonials_grid1">
-								<h5>Richa Roy</h5>
-								<p>Client 3</p>
-							</div>
-							<p>
-								Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa, eu aliquet massa. Suspendisse lacinia rutrum tincidunt.
-								Integer id erat porta, convallis.
-							</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</li>
-
-			</ul>
-		</div>
-	</div>
-	<!-- //testimonials -->
 
 
 

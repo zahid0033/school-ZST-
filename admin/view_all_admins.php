@@ -20,7 +20,7 @@ include "includes/admin_header.php"
     
     
     
-    
+
 	<table class="table table-striped table-bordered table-condensed">
 		<tr>
         <th>ID</th>
@@ -35,10 +35,15 @@ include "includes/admin_header.php"
 
             if (mysqli_num_rows($result) > 0)
             {
+
+                $i = 0;
+
                 while($row = mysqli_fetch_assoc($result))
                 {
+                    $i++;
+
                     echo "<tr>"; 
-					echo "<td>".$row['id']."</td>";
+					echo "<td>".$i."</td>";
 					echo "<td>".$row['username']."</td>";
 
 					echo "<td><a href=\"includes/delete_admin.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a> </td>";

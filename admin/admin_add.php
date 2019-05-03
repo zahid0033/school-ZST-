@@ -26,9 +26,10 @@ include "includes/admin_header.php"
 			</div>
 			<div class="login-form">
 				<form action="includes/reg_admin.php" method="post">
+					<div id="status" style="float: right; margin-bottom: 5px"></div>
 					<div class="">
 						<p>User Name </p>
-						<input type="text" class="name" name="username" required="" />
+						<input type="text" class="name" id="username" name="username" required="" />
 					</div>
 					<div class="">
 						<p>Password</p>
@@ -36,6 +37,8 @@ include "includes/admin_header.php"
 					</div>
 
 					<input type="submit" value="Save" name="submit">
+
+					
 					
 				</form>
 			</div>
@@ -45,6 +48,29 @@ include "includes/admin_header.php"
 
 
 </div>
+
+
+<script type="text/javascript">
+
+	$('#username').keyup(function(){
+		var username = $('#username').val();
+		$('#status').html('<span>Loading</span>');
+
+		if (username != '' ) {
+			$.post('includes/check_username.php',{username:username},
+			function(data){
+				$('#status').html(data);
+			});
+		}
+		else{
+			$('#status').html('');
+		}
+
+
+
+	});
+	
+</script>
 
    
 <?php include "includes/admin_footer.php" ?>

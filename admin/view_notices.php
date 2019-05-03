@@ -15,7 +15,7 @@ include "includes/admin_header.php"
 
    
    <h2 style="text-align:center">View Notices</h2>
-    <h3><a href='notice_add.php' style='float:left;' class='btn btn-info'>Add Notice</a></h3>
+    <h3><a href='notice_add.php' style='float:left;margin-bottom: 2em' class='btn btn-info'>Add Notice</a></h3>
     
     
    
@@ -38,29 +38,32 @@ include "includes/admin_header.php"
             if (mysqli_num_rows($result) > 0)
             {
 
+                $i = 0;
 
-                while($row = mysqli_fetch_assoc($result))
-                {
-
-
-
-                    $short= substr($row['description'],0,150 ); 
-
-                    echo "<tr>"; 
-
-          					echo "<td>".$row['id']."</td>";
-          					echo "<td>".$row['title']."</td>";
-                    echo "<td>".$short."... </td>";
-          					echo "<td>".$row['postTime']."</td>";
+                    while($row = mysqli_fetch_assoc($result))
+                    {
+                        $i++;
 
 
+                        $short= substr($row['description'],0,150 ); 
 
-          					echo "<td><a href=\"includes/delete_notice.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a> | <a href=\"view_notice.php?id=$row[id]\">View</a></td>";
+                        echo "<tr>"; 
 
-          					echo "</tr>";
-                  
+              					echo "<td>".$i."</td>";
+              					echo "<td>".$row['title']."</td>";
+                        echo "<td>".$short."... </td>";
+              					echo "<td>".$row['postTime']."</td>";
 
-                }
+
+
+              					echo "<td><a href=\"includes/delete_notice.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a> | <a href=\"view_notice.php?id=$row[id]\">View</a></td>";
+
+              					echo "</tr>";
+                      
+
+                    }
+
+                
 			
             }
             else

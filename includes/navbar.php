@@ -1,4 +1,3 @@
-
 <!--
  * User: Md. Zahid Hossain
  * Date: 28-03-2019
@@ -17,7 +16,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="index.php">
-							<img src="images/logo.jpg" style="float: left;width: 50px;height: 50px;">
+							<img src="images/logo.jpg" style="float: left;width: 100px;height: 60px;">
 							<!-- <h1>
 								<span class="fa fa-leanpub" aria-hidden="true"></span>Best Study
 								<label>Education & Courses</label>

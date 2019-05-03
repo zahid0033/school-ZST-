@@ -25,7 +25,7 @@ if($count > 0){
 		$short= substr($description,0,100 ); 
 
 
-   $output .='     <div class="col-md-12 yaallahaa-news-left">
+   $output .='  <div class="col-md- yaallahaa-news-left" >
 						<div class="col-xs-2 ">
 							<div class="news-left-text">
 								<span class="fa fa-bullhorn" aria-hidden="true"></span>
@@ -33,7 +33,7 @@ if($count > 0){
 						</div>
 						<div class="col-xs-10 news-grid-info-bottom-w3ls">
 							<div class="news-left-top-text text-color1">
-								<a href="notice_details.php?id='.$id.'">'.$title.'</a>
+								<a href="notice_details.php?id='.$id.'" style="color: Blue;font-size: 20px">'.$title.'</a>
 							</div>
 							<div class="date-grid">
 								<div class="admin">
@@ -41,7 +41,7 @@ if($count > 0){
 										<span class="fa fa-clock-o" aria-hidden="true"></span> '.$postTime.'</a>
 								</div>
 								<div class="description">
-									<p>'.$short.'....</p>
+									<p style="font-color:black">'.$short.'....</p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>

@@ -23,7 +23,7 @@
 		<div class="inner_breadcrumb">
 			<ul class="short_ls">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.php">Home</a>
 					<span>| |</span>
 				</li>
 				<li>Contact Us</li>
@@ -48,9 +48,7 @@
 					<h4>Contact Our
 						<span>Best Study</span>
 					</h4>
-					<p>Aliquam erat volutpat. Duis vulputate tempus laoreet.Aliquam erat volutpat. Duis vulputate tempus laoreet.Aliquam erat
-						volutpat. Duis vulputate tempus laoreet.
-					</p>
+					<p>For any sort of query or problem facing about ZST. Just feel free to ask us.</p>
 				</div>
 				<div class="col-md-6 contact-w3lsright">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7361.9011860827195!2d90.35514592438099!3d22.692883090483917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375534149148d833%3A0x81e1a970f6e12dce!2sSouth+Alekanda%2C+Barisal!5e0!3m2!1sen!2sbd!4v1556439433003!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

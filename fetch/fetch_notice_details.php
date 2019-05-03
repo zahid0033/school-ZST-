@@ -34,7 +34,7 @@ if($count > 0){
 
 		if($image == ""){
 
-			$output .='     	<div class="col-sm-12">
+			$output .='     	<div class="col-sm-12" style="margin-top:1em">
 						         <div class="panel-group">
 						            <div class="panel panel-info">
 						                <div class="panel-heading">
@@ -58,7 +58,7 @@ if($count > 0){
 		else{
 			$output .='     	
 
-					<div class="col-sm-12">
+					<div class="col-sm-12"  style="margin-top:1em">
 			         	<div class="panel-group">
 			            	<div class="panel panel-info">
 			                	<div class="panel-heading">
@@ -68,10 +68,10 @@ if($count > 0){
 
 			               		<div class="panel-body">
 
-					                   <p>
-					                   		<span style="float:right"> Download your file from here <a  href="uploads/'.$image.'" donwload>'.$image.'</a></span>
-					                   		'.$description.'
-					                   </p>
+					                   
+					                   <p><span style="float: right;color: red;border: 1px solid black;padding: 1em;"> Download your file from here <a  href="uploads/'.$image.'" donwload>'.$image.'</a></span></p>
+					                   	<p>	'.$description.' </p>
+					                   
 
 
 					                   <p>  </p>

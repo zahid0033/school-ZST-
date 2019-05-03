@@ -26,7 +26,7 @@
 		<div class="inner_breadcrumb">
 			<ul class="short_ls">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.php">Home</a>
 					<span>| |</span>
 				</li>
 				<li>About Us</li>
@@ -136,136 +136,7 @@
 		</div>
 	</div>
 	<!-- //Achievements -->
-	<!-- about-team -->
-	<div class="team">
-		<div class="container">
-			<div class="title-div">
-				<h3 class="tittle">
-					<span>O</span>ur
-					<span>F</span>aculties
-				</h3>
-				<div class="tittle-style">
-
-				</div>
-			</div>
-			<div class="team-row-agileinfo">
-				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-					<div class="thumbnail team-agileits">
-						<img src="images/ceo1.jpg" class="img-responsive" alt="" />
-						<div class="effectd-caption">
-							<h4>Vaura Tegsner</h4>
-							<p>Principal</p>
-							<div class="social-lsicon">
-								<a href="#" class="social-button twitter">
-									<span class="fa fa-twitter"></span>
-								</a>
-								<a href="#" class="social-button facebook">
-									<span class="fa fa-facebook"></span>
-								</a>
-								<a href="#" class="social-button google">
-									<span class="fa fa-google-plus"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-					<div class="thumbnail team-agileits">
-						<img src="images/t2.jpg" class="img-responsive" alt="" />
-						<div class="effectd-caption">
-							<h4>Jark Kohnson</h4>
-							<p>Senior Teacher</p>
-							<div class="social-lsicon">
-								<a href="#" class="social-button twitter">
-									<span class="fa fa-twitter"></span>
-								</a>
-								<a href="#" class="social-button facebook">
-									<span class="fa fa-facebook"></span>
-								</a>
-								<a href="#" class="social-button google">
-									<span class="fa fa-google-plus"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-					<div class="thumbnail team-agileits">
-						<img src="images/t3.jpg" class="img-responsive" alt="" />
-						<div class="effectd-caption">
-							<h4>Chunk Erson</h4>
-							<p>Vice Principal</p>
-							<div class="social-lsicon">
-								<a href="#" class="social-button twitter">
-									<span class="fa fa-twitter"></span>
-								</a>
-								<a href="#" class="social-button facebook">
-									<span class="fa fa-facebook"></span>
-								</a>
-								<a href="#" class="social-button google">
-									<span class="fa fa-google-plus"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-					<div class="thumbnail team-agileits">
-						<img src="images/t4.jpg" class="img-responsive" alt="" />
-						<div class="effectd-caption">
-							<h4>Goes Mehak</h4>
-							<p>Teacher Science</p>
-							<div class="social-lsicon">
-								<a href="#" class="social-button twitter">
-									<span class="fa fa-twitter"></span>
-								</a>
-								<a href="#" class="social-button facebook">
-									<span class="fa fa-facebook"></span>
-								</a>
-								<a href="#" class="social-button google">
-									<span class="fa fa-google-plus"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //about-team -->
-
-
-
-	<!-- modal -->
-	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-					<h4 class="modal-title">Best
-						<span>Study</span>
-					</h4>
-				</div>
-				<div class="modal-body">
-					<div class="model-img-info">
-						<img src="images/e1.jpg" alt="" />
-						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque
-							ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis
-							porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper. Cras tempor massa
-							luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modal -->
-	<!-- //news -->
-
-
+	
 
 
 <?php include "includes/footer.php" ?>

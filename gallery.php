@@ -24,7 +24,7 @@
 		<div class="inner_breadcrumb">
 			<ul class="short_ls">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.php">Home</a>
 					<span>| |</span>
 				</li>
 				<li>Gallery</li>
